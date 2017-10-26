@@ -57,3 +57,12 @@ gem 'sprockets-rails'
 gem 'jquery-rails'
 gem 'popper_js', '~> 1.11.1'
 gem 'font-awesome-rails'
+
+group :development do
+  gem 'capistrano', '~> 3.6'
+  gem 'capistrano-rails', '~> 1.1'
+  gem 'capistrano-rvm'
+  gem 'capistrano3-puma'
+  gem 'capistrano3-nginx'
+  gem 'capistrano-upload-config'
+end
